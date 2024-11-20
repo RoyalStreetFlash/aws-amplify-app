@@ -7,6 +7,7 @@ import "@aws-amplify/ui-react/styles.css";
 import awsExports from "./aws-exports";
 Amplify.configure(awsExports);
 
+// ビルド試すためのコメント
 function App({ signOut, user }) {
   return (
     <div className="App">
